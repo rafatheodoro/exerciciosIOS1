@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		538E823A20EFAFA000B4B046 /* FaceDoubt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538E823920EFAFA000B4B046 /* FaceDoubt.swift */; };
+		538E823C20EFAFC300B4B046 /* FaceSad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538E823B20EFAFC300B4B046 /* FaceSad.swift */; };
+		5399154220EFA80B00725D78 /* FaceSmile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399154120EFA80B00725D78 /* FaceSmile.swift */; };
 		EB6CF2CB20D336B200D4DF28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CF2CA20D336B200D4DF28 /* AppDelegate.swift */; };
 		EB6CF2CD20D336B200D4DF28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CF2CC20D336B200D4DF28 /* ViewController.swift */; };
 		EB6CF2D020D336B200D4DF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6CF2CE20D336B200D4DF28 /* Main.storyboard */; };
 		EB6CF2D220D336B300D4DF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6CF2D120D336B300D4DF28 /* Assets.xcassets */; };
 		EB6CF2D520D336B300D4DF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6CF2D320D336B300D4DF28 /* LaunchScreen.storyboard */; };
 		EB6CF2DD20D3375F00D4DF28 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CF2DC20D3375F00D4DF28 /* TriangleView.swift */; };
-		EB6CF2DF20D33F7600D4DF28 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CF2DE20D33F7600D4DF28 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		538E823920EFAFA000B4B046 /* FaceDoubt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDoubt.swift; sourceTree = "<group>"; };
+		538E823B20EFAFC300B4B046 /* FaceSad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSad.swift; sourceTree = "<group>"; };
+		5399154120EFA80B00725D78 /* FaceSmile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSmile.swift; sourceTree = "<group>"; };
 		EB6CF2C720D336B200D4DF28 /* ExemploDesenho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExemploDesenho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6CF2CA20D336B200D4DF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB6CF2CC20D336B200D4DF28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +30,6 @@
 		EB6CF2D420D336B300D4DF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB6CF2D620D336B300D4DF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6CF2DC20D3375F00D4DF28 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
-		EB6CF2DE20D33F7600D4DF28 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,9 @@
 				EB6CF2D320D336B300D4DF28 /* LaunchScreen.storyboard */,
 				EB6CF2D620D336B300D4DF28 /* Info.plist */,
 				EB6CF2DC20D3375F00D4DF28 /* TriangleView.swift */,
-				EB6CF2DE20D33F7600D4DF28 /* FaceView.swift */,
+				5399154120EFA80B00725D78 /* FaceSmile.swift */,
+				538E823920EFAFA000B4B046 /* FaceDoubt.swift */,
+				538E823B20EFAFC300B4B046 /* FaceSad.swift */,
 			);
 			path = ExemploDesenho;
 			sourceTree = "<group>";
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538E823C20EFAFC300B4B046 /* FaceSad.swift in Sources */,
+				5399154220EFA80B00725D78 /* FaceSmile.swift in Sources */,
 				EB6CF2CD20D336B200D4DF28 /* ViewController.swift in Sources */,
 				EB6CF2DD20D3375F00D4DF28 /* TriangleView.swift in Sources */,
 				EB6CF2CB20D336B200D4DF28 /* AppDelegate.swift in Sources */,
-				EB6CF2DF20D33F7600D4DF28 /* FaceView.swift in Sources */,
+				538E823A20EFAFA000B4B046 /* FaceDoubt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
